@@ -45,3 +45,14 @@ Below is an example of maven build configuration:
 			</plugin>
 		</plugins>
 	</build>
+
+	
+You will also need a dependency to the selenium4j tool
+
+	<dependencies>
+		<dependency>
+			<groupId>org.roussev</groupId>
+			<artifactId>selenium4j</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
